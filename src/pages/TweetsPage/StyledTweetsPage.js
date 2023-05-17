@@ -4,7 +4,6 @@ import { RingLoader } from "react-spinners";
 
 export const StyledDiv = styled.div`
   width: 100vw;
-  height: 100vw;
   background: var(--btnBgc);
   text-align: center;
   padding: 50px  50px;
