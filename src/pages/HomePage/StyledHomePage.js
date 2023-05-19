@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const StyledContainer = styled.div`
   width: 100vw;
-  height: 100vw;
+  min-height: 100vh;
   background: var(--linearGradient);
   color: var(--btnBgc);
   text-align: center;
