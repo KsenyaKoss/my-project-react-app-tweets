@@ -16,6 +16,12 @@ export const StyledWrapper = styled.div`
 
   color: var(--btnBgc);
   cursor: pointer;
+  transition: 0.3s ease-in;
+
+&:hover {
+  color: white;
+  background: darkviolet;
+}
 `
 
 export const StyledSelector = styled.select`

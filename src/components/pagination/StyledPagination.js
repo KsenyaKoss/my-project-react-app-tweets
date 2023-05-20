@@ -21,9 +21,11 @@ display: flex;
 align-items: center;
 justify-content: center;
 cursor: pointer;
+transition: 0.3s ease-in-out;
 
 &:hover {
-    color: white;
+  color: white;
+  background: darkviolet;
 }
 
 

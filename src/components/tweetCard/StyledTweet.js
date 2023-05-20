@@ -52,12 +52,19 @@ export const StyledButton = styled.button`
   border-color: transparent;
   background: ${(props) =>
     props.subscribed? "var(--btnHoverBgc)" : "var(--btnBgc)"};
+  font-family: 'Montserrat';
   font-weight: 600;
   font-size: 18px;
   line-height: 1.22;
   color: var(--mainBlack);
   text-transform: uppercase;
   cursor: pointer;
+  transition: 0.3s ease-in-out;
+
+  &:hover {
+    color: white;
+    background: darkviolet;
+  }
 `;
 
 export const StyledAvatarWrapper = styled.div`

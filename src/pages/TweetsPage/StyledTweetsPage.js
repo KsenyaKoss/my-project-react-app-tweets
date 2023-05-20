@@ -23,6 +23,12 @@ export const StyledButton = styled.button`
   line-height: 1.22;
   color: var(--btnBgc);
   cursor: pointer;
+  transition: 0.3s ease-in-out;
+
+&:hover {
+  color: white;
+  background: darkviolet;
+}
 `
 export const StyledWrapper = styled.div`
 display: flex;
