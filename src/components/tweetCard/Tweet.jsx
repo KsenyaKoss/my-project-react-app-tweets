@@ -15,7 +15,9 @@ import PropTypes from 'prop-types';
 const Tweet = ({ user }) => { 
   const dispatch = useDispatch();
   const formatFollowersWithComma = (number) =>
-    number.toLocaleString().replace(" ", ",");
+    { const numberToDecimal = number / 100;
+      return numberToDecimal.toLocaleString();
+};
 
   const handleSubscribe = user => {
     const newUser =  {...user,
